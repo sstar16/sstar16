@@ -123,3 +123,5 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" alt="footer"/>
 
 <div align="center"><sub>✨ Vibe-coding from Shanghai · "Let the researcher spend time on Thinking" ✨</sub></div>
+
+<!-- profile readme live -->
