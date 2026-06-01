@@ -1,0 +1,40 @@
+name: Metrics
+
+on:
+  # Refresh once a day (14:00 Shanghai = 06:00 UTC)
+  schedule:
+    - cron: "0 6 * * *"
+  # Manual trigger from the Actions tab / API
+  workflow_dispatch:
+  # NOTE: intentionally NO "push" trigger — this job commits github-metrics.svg
+  # back to main, and a push trigger would create an infinite loop.
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics card
+        uses: lowlighter/metrics@latest
+        with:
+          # A classic PAT with the "repo" scope, stored as a repo secret.
+          # This is what lets your PRIVATE contributions be counted.
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: sstar16
+          filename: github-metrics.svg
+          config_timezone: Asia/Shanghai
+
+          # Core card: header + activity + community + repos + footer metadata
+          base: header, activity, community, repositories, metadata
+
+          # Language breakdown (incl. private repos via the PAT)
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
+
+          # Full-year contribution calendar (isometric)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
