@@ -1,6 +1,5 @@
 <!-- ════════════════════════════════════════════════════════════════
-     sstar16 · GitHub Profile README
-     Drop this file at the ROOT of a PUBLIC repo named  sstar16/sstar16
+     sstar16 · GitHub Profile README  (repo: sstar16/sstar16)
      ════════════════════════════════════════════════════════════════ -->
 
 <!-- ░░░ HEADER BANNER ░░░ -->
@@ -34,7 +33,7 @@
 
 ## 🚀 Featured Projects
 
-### 🛰️ ScholarPilot · <sub>`public`</sub>
+### 🛰️ ScholarPilot &nbsp;·&nbsp; <sub>`public` · [github.com/sstar16/scholarpilot »](https://github.com/sstar16/scholarpilot)</sub>
 > **Cross-domain scientific intelligence platform — "let researchers spend time on Thinking."**
 > Describe a research direction in plain chat → multi-source parallel retrieval across **14+ academic & patent databases**, per-paper LLM scoring (0–10) with relevance justifications + summaries, 4-bucket feedback, and a collaborative **knowledge-graph** view. BYOK.
 
@@ -49,9 +48,7 @@
   <img src="https://img.shields.io/badge/Claude%20SDK-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
 </p>
 
-[![ScholarPilot](https://github-readme-stats.vercel.app/api/pin/?username=sstar16&repo=scholarpilot&theme=tokyonight&hide_border=true)](https://github.com/sstar16/scholarpilot)
-
-### 🤖 quantum-butterfly · <sub>`private infrastructure`</sub>
+### 🤖 quantum-butterfly &nbsp;·&nbsp; <sub>`private infrastructure`</sub>
 > **A 24/7 autonomous-agent platform.** An iPhone-driven Claude Code *"OPS Orchestrator"* that **self-schedules** its own heartbeat, learning, and nightly memory-consolidation cycles — with multi-channel messaging bridges and a FastAPI + Gradio **GPU studio** (ComfyUI video + GPT-SoVITS voice) serialized behind a shared GPU semaphore.
 
 <p>
@@ -63,7 +60,7 @@
   <img src="https://img.shields.io/badge/GPT--SoVITS-5A4FCF?style=flat-square&logo=audiomack&logoColor=white"/>
 </p>
 
-### 🔬 Production-line Image Pipeline · <sub>`collaboration` · `private`</sub>
+### 🔬 Production-line Image Pipeline &nbsp;·&nbsp; <sub>`collaboration` · `private`</sub>
 > **My computer-vision contribution** to a teammate's manufacturing desktop tool: the image pipeline that auto-detects beads with **OpenCV** (HoughCircles → contour-fit radius → distance-transform center snapping) and an **interactive PySide6 editor** that composites standardized product-confirmation images on a 3416×3416 template.
 
 <p>
@@ -90,18 +87,13 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sstar16&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=tokyonight" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sstar16&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="top langs"/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=sstar16&hide_border=true&theme=tokyonight" alt="streak"/>
+<img height="180" src="https://streak-stats.demolab.com?user=sstar16&hide_border=true&theme=tokyonight" alt="streak"/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sstar16&bg_color=1a1b27&color=7aa2f7&line=bb9af7&point=ffffff&area=true&hide_border=true&theme=tokyo-night" alt="activity graph"/>
-
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=sstar16&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="trophies"/>
 
 </div>
 
@@ -123,5 +115,3 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" alt="footer"/>
 
 <div align="center"><sub>✨ Vibe-coding from Shanghai · "Let the researcher spend time on Thinking" ✨</sub></div>
-
-<!-- profile readme live -->
