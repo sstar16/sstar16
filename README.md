@@ -73,13 +73,9 @@
 
 ---
 
-## 🛠️ Tech Stack
 
-<div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=python,fastapi,vue,ts,tauri,rust,opencv,qt,docker,postgres,git,powershell&theme=dark&perline=12)](https://skillicons.dev)
-
-**Also working with**
+**working with**
 &nbsp;
 `Claude SDK` · `OpenAI SDK` · `Celery` · `SQLAlchemy` · `Pydantic v2` · `Gradio` · `cytoscape.js` · `ComfyUI` · `GPT-SoVITS` · `Cloudflare Tunnel` · `Tailscale`
 
